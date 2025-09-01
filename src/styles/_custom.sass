@@ -2,20 +2,209 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 57%
+    right: 82%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 21%
+    right: 8%
 
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: black !important  
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/fondo-paginas.png") !important
+
+.banner-principal__row .banner-principal__img
+  width: 36%
+
+// versión escritorio/movil
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li, .lista-ul li i
+  display: flex
+
+.bg-color
+  &-1
+    background-color: #C2EDC3FF
+
+  &-2
+    background-color: #CCD9F8
+
+  &-3
+    background-color: #E0F6E1
+
+// TARJETAS CON AVATAR
+.tarjeta-avatar
+  height: 100%
+  position: relative
+  padding-top: $tarjeta-avatar-ancho-img2 / 2
+  & > img
+    position: absolute
+    left: 50%
+    top: 0
+    transform: translateX(-50%)
+    display: block
+    width: $tarjeta-avatar-ancho-img2
+    margin: 0 auto
+  .tarjeta
+    display: inline-block
+    padding-top: 60px !important
+    height: 100% 
+
+.tarjeta-avatar-b__img
+  min-width: 15%
+  max-width: 15%
+  position: relative
+  display: flex
+  align-items: center
+
+//- tarjetas cambio de color HOVER
+.bg-c1, .bg-c2, .bg-2, .bg-3, .tarjeta--BG01
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+
+.bg-c1, .bg-c2, .bg-2, .bg-3
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.bg
+  &-c1
+    background: linear-gradient(to bottom, #FFF, #ECF1FC, #FFF)
   
-.txt--green
-  color: #39A900 !important
+  &-c2
+    background-image: url(../assets/curso/temas/tema2/fondo-verde.png)
+
+.tarjeta--C02
+  background-color: #CCD9F8
+
+.cajon--C01
+  background-color: #E0F6E1
+
+.cajon--C02
+  background-color: #E8F3DB
+
+.tarjeta
+  &--BG01
+    background-image: url("../assets/curso/temas/tema1/BG01.png")
+
+  &--BGC02
+    background-image: url("../assets/curso/temas/tema2/tarjeta-horizontal-2.png")
+    background-size: cover 
+    background-repeat: no-repeat
+    background-position: center
+
+.fa-chevron-right, .fa-chevron-left
+  color: #FFA239
+
+//linea de tiempo d
+.linea-tiempo-d.color-acento-botones.especial
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content
+      background-color: #CCD9F8 !important
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #C2EDC3
+.tarjeta.tarjeta--gris
+  background-color: #FFDAAF
+
+.linea-tiempo-d__item__content__title
+  height: 50px
+
+//- acordion
+.acordion__accion__btn--b
+  background-color: #FFA239
+  color: #000 !important
+  border: none
+
+.tarjeta--C01, .linea-tiempo-d__item__content.tarjeta.tarjeta--gris, .bg-color-1
+  background-color: #C2EDC3
+
+.tarjeta.tarjeta--C01.acordion__activo
+  background-color: #F2F2F2
+
+.style___box_1
+  background-color: $color-adicional-3
+  padding: 0rem 1rem 0rem 0rem
+  img
+    margin-left: -0.8rem !important
+  @media screen and (max-width: 1200px)
+    padding: 1.5r
+
+.style___box_2
+  background-color: $color-adicional-4
+  padding: 0rem 1rem 0rem 0rem
+  img
+    margin-left: -0.8rem !important
+  @media screen and (max-width: 1200px)
+    padding: 1.5r
+
+// modulo tabs
+.tabs-c__content-item
+  background-image: url("../assets/curso/temas/tema2/fondo-tabs.png")
+.tabs-c__tab
+  background-color: #FFDAAF
+.tabs-c__tab--active
+  background-color: #fff
+.tabs-c__header
+  margin-bottom: 0 !important
+.tabs-c.color-acento-botones .tabs-c__tab--active
+  font-weight: 700
+
+// Estilo tarjeta hover
+.img90
+  width: 200px
+  display: inline-flex
+  align-items: center
+  justify-content: flex-start
+  text-align: center 
+
+.titulo-1
+  background-color: #8BC34A
+  color: #12263F
+  padding: 4px 10px
+  display: inline-flex
+  align-items: center
+  justify-content: flex-start
+  text-align: center
+
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-image: url('../assets/curso/temas/tema2/fondo-tarjeta.svg')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+    height: 100%
+    border-radius: 15px    
+
+.style___box_1_1
+  background-color: $color-adicional-5
+  padding: 0rem 0rem 0rem 1.5rem
+  img
+    margin-right: -0.8rem !important
+  @media screen and (max-width: 1200px)
+    padding: 1.5rem
+
+.ajuste___color
+  background-color: $color-adicional-5
