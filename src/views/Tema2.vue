@@ -238,7 +238,7 @@
           .row.mb-3
             .col-lg-3.col-5
               img(src='@/assets/curso/temas/tema2/img-13.svg' alt="Imagen decorativa")
-          p.mb-0 Enfoque diferencial que atiende las particularidades de grupos poblacionales según edad, género, etnia o condición de vulnerabilidad.
+          p.mb-0 Enfoque de derechos que reconoce la salud y el ambiente sano como derechos fundamentales.
       .col-lg-3.col-sm-6.col-10.mb-4(data-aos="fade-right")
         .tarjeta.BGIMG01.h-100.p-4(style="background-color:#CCD9F8")
           .row.mb-3
@@ -574,7 +574,7 @@
             
             li.mb-0
               i.lista-ul__vineta
-              | Campañas participativas diseñadas con la comunidad o en alianza con aprendices del SENA.s.
+              | Campañas participativas diseñadas con la comunidad o en alianza con aprendices del SENA.
       
       .col-xl-6.col-lg-8.mb-4.mb-xl-5
         .crd.crd--grayGrad(data-aos="flip-left")

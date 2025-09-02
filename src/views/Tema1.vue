@@ -323,7 +323,7 @@
         .row.justify-content-center
           .col-lg-4.col-sm-6.col-10.mb-4(data-aos="fade-left")
             .tarjeta.BGIMG01.h-100.p-4(style="background-color:#99B3F1")
-              h3.mb-0.text-center Deberes de los actores comunitariosa
+              h3.mb-0.py-5.text-center Derechos de los actores comunitarios:
           .col-lg-4.col-sm-6.col-10.mb-4(data-aos="fade-right")
             .tarjeta.BGIMG01.h-100.p-4(style="background-color:#CCD9F8")
               .row.mb-3
@@ -363,7 +363,7 @@
         .row.justify-content-center
           .col-lg-4.col-sm-6.col-10.mb-4(data-aos="fade-left")
             .tarjeta.BGIMG01.h-100.p-4(style="background-color:#66D16A")
-              h3.mb-0.text-center Deberes de los actores comunitariosa
+              h3.mb-0.py-5.text-center Deberes de los actores comunitarios:
           .col-lg-4.col-sm-6.col-10.mb-4(data-aos="fade-right")
             .tarjeta.BGIMG01.h-100.p-3(style="background-color:#C2EDC3")
               .row.mb-2
