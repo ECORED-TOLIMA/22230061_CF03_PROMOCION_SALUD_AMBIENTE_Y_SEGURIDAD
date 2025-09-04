@@ -8,27 +8,27 @@
       h1 Participación comunitaria en salud ambiental
 
     .row.justify-content-center.mb-5
-      .col-lg-8.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0.mb-3(data-aos="zoom-in")
+      .col-lg-8.order-lg-2.order-2(data-aos="zoom-in")
         p La participación comunitaria en salud ambiental se entiende como el conjunto de acciones mediante las cuales la población se involucra de manera activa en la identificación, análisis y solución de los problemas que afectan su entorno. Esta participación permite reconocer que la salud no depende únicamente de la atención médica, sino también de las condiciones ambientales, sociales y culturales que rodean a las personas.
-        .tarjeta.p-3.mb-3(style="background-color:#E0F6E1; border-radius:none !important")
-          .row.justify-content-center
-            .col-auto.order-lg-1.order-2.mb-lg-0.mb-3
+        .tarjeta.p-4.mb-3(style="background-color:#E0F6E1; border-radius:none !important")
+          .row.justify-content-center.align-items-center
+            .col-auto.order-lg-1.order-2.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/icono-01.svg', alt='Imagen decorativa')
-            .col-lg-10.col-12.mb-0.order-lg-2.order-2.mb-lg-0
+            .col-lg-10.mb-0.order-lg-2.order-2.mb-lg-0
               p.mb-0 El propósito de la participación comunitaria es fortalecer el empoderamiento colectivo, de modo que la comunidad sea capaz de tomar decisiones informadas, proponer alternativas y ejecutar actividades que contribuyan a la prevención de riesgos ambientales. De esta manera, se logra una corresponsabilidad entre ciudadanos, instituciones y autoridades para garantizar entornos más saludables.
         .row
           .col-auto.d-none.d-lg-block(data-aos="fade-left")
             figure
               img(src='@/assets/curso/temas/tema1/icono.svg' alt="Imagen decorativa")
-          .col.mb-3
+          .col
             p.mb-0 Este proceso se desarrolla mediante la organización de grupos comunitarios, comités de salud, mesas de trabajo y programas de educación ambiental. A través de estos espacios, se promueve la construcción de soluciones locales como el manejo adecuado de residuos, el cuidado de fuentes hídricas, la prevención de enfermedades transmitidas por vectores y la promoción de hábitos de vida saludable.
 
-      .col-lg-4.col-6.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-3(data-aos="fade-right")
+      .col-lg-4.col-md-6.col-8.order-1.mb-lg-0.mb-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema1/img-01.png', alt='Imagen decorativa')
 
-    p.mb-0(data-aos="zoom-in") En conclusión, la participación comunitaria en salud ambiental es una herramienta fundamental para generar cambios sostenibles y duraderos, ya que involucra directamente a quienes viven las problemáticas y fomenta un compromiso compartido en la búsqueda de la calidad de vida y el bienestar colectivo.
+    p(data-aos="zoom-in") En conclusión, la participación comunitaria en salud ambiental es una herramienta fundamental para generar cambios sostenibles y duraderos, ya que involucra directamente a quienes viven las problemáticas y fomenta un compromiso compartido en la búsqueda de la calidad de vida y el bienestar colectivo.
 
     Separador
 
@@ -36,7 +36,7 @@
       h2 1.1 Mecanismos de participación social en salud
 
     p(data-aos="zoom-in") La participación social en salud se concibe como el derecho y deber de las comunidades para intervenir en la gestión, planificación, ejecución y evaluación de acciones que promuevan la salud y el bienestar colectivo. Este proceso fortalece la democracia, fomenta la corresponsabilidad y garantiza que las decisiones respondan a las necesidades reales de la población.
-    p.mb-4(data-aos="fade-left") Entre los principales mecanismos de participación se encuentran:
+    p.mb-5(data-aos="fade-left") Entre los principales mecanismos de participación se encuentran:
 
     .row.justify-content-center.mb-5
       .col-lg-3.col-sm-6.col-10.mb-lg-0.mb-4(data-aos="fade-right")
@@ -45,14 +45,12 @@
             img(src='@/assets/curso/temas/tema1/img-02.png' alt="Imagen decorativa")
           .p-4
             h4.mb-0.text-center(style="color:#12263F") #[b Comités de salud]
-
       .col-lg-3.col-sm-6.col-10.mb-lg-0.mb-4(data-aos="flip-right")
         .tarjeta.color-secundario.h-100(style="background-color:#66D16A")
           figure
             img(src='@/assets/curso/temas/tema1/img-03.png' alt="Imagen decorativa")
           .p-4
             h4.mb-0.text-center(style="color:#12263F") Consejos territoriales de planeación
-
       .col-lg-3.col-sm-6.col-10.mb-lg-0.mb-4(data-aos="flip-left")
         .tarjeta.color-primario.h-100(style="background-color:#66D16A")
           figure
@@ -75,7 +73,7 @@
             .col-2.d-none.d-lg-block.order-lg-2.order-2.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img-07.svg', alt='Imagen decorativa')
-            .col-lg-10.col-12.mb-3.order-lg-1.order-2.mb-lg-0.p-4
+            .col-lg-10.order-lg-1.order-2.mb-lg-0.p-4
               p.mb-0 Estos mecanismos funcionan de manera articulada con las autoridades sanitarias locales, regionales y nacionales, lo que facilita la construcción de planes de acción integrales, el fortalecimiento de la vigilancia comunitaria en salud ambiental y la promoción de entornos seguros y sostenibles. La inclusión activa de la comunidad en estos procesos contribuye a que las políticas de salud sean más equitativas, transparentes y efectivas.
 
       .col-lg-3.col-6.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-3(data-aos="flip-up")
@@ -131,9 +129,7 @@
                   img(src='@/assets/curso/temas/tema1/img-14.svg' alt="Imagen decorativa")
               p.mb-0 #[b Definición de roles y funciones de los integrantes, de acuerdo con los lineamientos legales.]
           .col-lg-4.col-sm-6.col-10.mb-4(data-aos="fade-right")
-            .row.align-items-start
-              .col-lg-auto
-                img(src='@/assets/curso/temas/tema1/img-15.svg' alt="Imagen decorativa")
+            img(src='@/assets/curso/temas/tema1/img-15.svg' alt="Imagen decorativa")
 
       .col-lg-3.col-6.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-4(data-aos="fade-down")
         img(src='@/assets/curso/temas/tema1/img-09.png' alt="Imagen decorativa")
@@ -143,30 +139,27 @@
     .row.justify-content-center.mb-5
       .col-lg-9.order-lg-1.order-2(data-aos="fade-right")
         p(style="color:#000") De esta manera, los comités se constituyen como espacios de representación y diálogo donde la comunidad tiene la oportunidad de incidir en la gestión pública. Su importancia radica en que no se limitan únicamente a la supervisión, sino que también promueven la construcción colectiva de soluciones y el fortalecimiento del tejido social. En Colombia, existen diversas experiencias que describen cómo estos comités funcionan en la práctica y aportan significativamente al mejoramiento de la salud y el bienestar comunitario.
-        .tarjeta-avatar-b.mb-4  
+        .tarjeta-avatar-b 
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema1/img-16.svg' alt='')
           .tarjeta.color-primario(style="background-color:#CCD9F8")
             .p-3
               ul.lista-ul.mb-0
-                li
-                  ul
-                    li 
-                      i.lista-ul__vineta
-                      | En Medellín, los COPACOS han trabajado en proyectos de vigilancia de la calidad del aire y control de vectores en barrios vulnerables.
+                li 
+                  i.lista-ul__vineta
+                  | En Medellín, los COPACOS han trabajado en proyectos de vigilancia de la calidad del aire y control de vectores en barrios vulnerables.
+                li 
+                  i.lista-ul__vineta
+                  | En Cali, se han conformado comités comunitarios para acompañar procesos de saneamiento básico en zonas periurbanas.
 
-                    li 
-                      i.lista-ul__vineta
-                      | En Cali, se han conformado comités comunitarios para acompañar procesos de saneamiento básico en zonas periurbanas.
+                li.mb-0
+                  i.lista-ul__vineta
+                  | En municipios rurales de Boyacá, los COPACOS han liderado campañas de uso responsable del agua y manejo de residuos sólidos.
 
-                    li
-                      i.lista-ul__vineta
-                      | En municipios rurales de Boyacá, los COPACOS han liderado campañas de uso responsable del agua y manejo de residuos sólidos.
-
-      .col-lg-3.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+      .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema1/img-17.svg' alt="Imagen decorativa")
 
-    p.mb-0(data-aos="fade-left") Estos ejemplos evidencian que los comités se adaptan a las necesidades del territorio y fortalecen la democracia participativa en salud ambiental.
+    p(data-aos="fade-left") Estos ejemplos evidencian que los comités se adaptan a las necesidades del territorio y fortalecen la democracia participativa en salud ambiental.
 
     Separador
 
@@ -174,7 +167,7 @@
       h2 1.3 Veedurías ciudadanas en salud ambiental y sanitaria
 
     p(data-aos="fade-down") Las veedurías ciudadanas en salud ambiental representan un mecanismo de participación que fortalece el control social sobre las políticas, programas y proyectos que impactan la calidad de vida de las comunidades. A través de ellas, los ciudadanos pueden ejercer vigilancia activa, proponer mejoras y garantizar que las acciones estatales respondan a las necesidades reales de la población.
-    p.mb-4(data-aos="fade-left") En este sentido, sus funciones y alcances principales pueden observarse en:
+    p.mb-5(data-aos="fade-left") En este sentido, sus funciones y alcances principales pueden observarse en:
 
     .bg-c1.px-md-5.px-4.mb-5
       .row.justify-content-center(data-aos="fade-left")
@@ -219,7 +212,7 @@
             p Asimismo, las veedurías se convierten en espacios donde los ciudadanos expresan sus preocupaciones y generan aportes que fortalecen las políticas públicas. Para describir mejor su papel, a continuación, se destacan algunas acciones que suelen desarrollar:
         .tarjeta.tarjeta--BGC02.p-3.mb-4
           .col.mb-0
-            ul.lista-ul--color.mt-2
+            ul.lista-ul--color.ms-2.mb-0
               li.d-flex.align-items-start.mb-0
                 i.fas.fa-leaf
                 p.mb-0 Supervisar la calidad del agua que llega a los hogares y reportar irregularidades a las autoridades.
@@ -250,13 +243,12 @@
         .tarjeta-avatar-b.d-flex.align-items-center.p-3.rounded
           .tarjeta-avatar-b__img.me-0.d-flex.justify-content-center.align-items-center(style="width:60px; height:60px; border-radius:50%")
             .col-lg-8
-              img(src='@/assets/curso/temas/tema1/img-25.svg' alt="Imagen decorativa")(style= "width: 100%")
-          .tarjeta.tarjeta--C02.py-3
-            .p-3
+              img(src='@/assets/curso/temas/tema1/img-25.svg' alt="Imagen decorativa")
+          .tarjeta.tarjeta--C02
+            .p-4
               p.mb-0 Un ejemplo de su impacto en territorio es el caso de una veeduría comunitaria en el Tolima, donde campesinos organizaron un seguimiento a la calidad del agua de consumo humano. Gracias a su gestión, las autoridades ordenaron mejoras en la potabilización y distribución del recurso. Este tipo de experiencias demuestran cómo la acción comunitaria fortalece la salud ambiental desde el control social.
 
     Separador
-
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.4 Derechos y deberes en salud de los actores comunitarios
 
@@ -276,9 +268,8 @@
                     
                     li.mb-0 
                       i.lista-ul__vineta
-                      span #[b Artículo 79:] garantiza el derecho a un ambiente sano y obliga al Estado a proteger la diversidad e integridad del ambiente.
-                      
-            .col-lg-2.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+                      span #[b Artículo 79:] garantiza el derecho a un ambiente sano y obliga al Estado a proteger la diversidad e integridad del ambiente.   
+            .col-lg-2.col-4.order-lg-2.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/img-43.svg', alt="Imagen decorativa")
           
@@ -303,7 +294,7 @@
                       i.lista-ul__vineta
                       | Refuerza la corresponsabilidad entre Estado, instituciones y ciudadanía.
 
-            .col-lg-2.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+            .col-lg-2.col-4.order-lg-2.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/img-44.svg', alt="Imagen decorativa")
 
@@ -314,7 +305,7 @@
       .col-lg-8.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0.mb-3(data-aos="flip-down")
         p En este contexto, resulta fundamental comprender que la participación ciudadana en la salud ambiental y sanitaria no se limita únicamente a los espacios de control social, sino que también se sustenta en el equilibrio entre los derechos que garantizan condiciones dignas de vida y los deberes que comprometen a cada persona con la protección del entorno y la promoción del bienestar colectivo. Reconocer este marco de derechos y deberes fortalece la capacidad de la comunidad para asumir un papel activo, responsable y consciente en la construcción de un ambiente saludable y sostenible. A continuación, se presentan los principales derechos y deberes que orientan esta participación.
 
-      .col-lg-4.col-6.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-3(data-aos="flip-up")
+      .col-lg-4.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-3(data-aos="flip-up")
         figure
           img(src='@/assets/curso/temas/tema1/img-29.png', alt='Imagen decorativa')
 

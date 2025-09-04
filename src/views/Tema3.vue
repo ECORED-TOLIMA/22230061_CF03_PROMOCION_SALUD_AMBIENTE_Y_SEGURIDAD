@@ -10,21 +10,20 @@
     .row.justify-content-center.mb-4
       .col-lg-9.order-lg-1.order-2(data-aos="fade-right")  
         p La ejecución del plan de acción representa la etapa en la que las propuestas diseñadas pasan del papel a la práctica. En este momento se ponen en marcha las actividades programadas, se movilizan los recursos humanos, técnicos y financieros, y se articulan los esfuerzos de los diferentes actores involucrados. La eficacia de esta fase depende de la organización, la comunicación constante y la disposición para enfrentar retos que puedan surgir en el proceso.
-        .tarjeta.p-3.mb-3(style="background-color:#E0F6E1; border-radius:none !important")
-          .row.justify-content-center
-            .col-auto.order-lg-1.order-2.mb-lg-0.mb-3
+        .tarjeta.p-4(style="background-color:#E0F6E1; border-radius:none !important")
+          .row.justify-content-center.align-items-center
+            .col-lg-auto.col-sm-3.col-4.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema3/img-02.svg', alt='Imagen decorativa')
-            .col-lg-10.col-12.mb-0.order-lg-2.order-2.mb-lg-0
+            .col-lg-10
               p.mb-0 El seguimiento es esencial para garantizar que las acciones se desarrollen conforme a lo planeado. Este implica revisar periódicamente los avances, identificar desviaciones respecto a las metas y valorar el cumplimiento de los indicadores establecidos. Gracias a este monitoreo es posible detectar a tiempo obstáculos, generar alertas y mantener informados a los responsables del plan.
-
       .col-lg-3.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema3/img-01.png' alt="Imagen decorativa")
 
     .row.justify-content-center.mb-0
       .col-lg-8.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0.mb-3(data-aos="flip-down")
         p En la medida en que se avanza en la ejecución, pueden presentarse situaciones imprevistas que demanden ajustes. Estos pueden estar relacionados con la redistribución de recursos, la redefinición de prioridades o la modificación de estrategias que no resulten tan efectivas como se proyectaron inicialmente. El ajuste del plan no significa un retroceso, sino una respuesta flexible y estratégica que fortalece el proceso y permite alcanzar los resultados deseados a pesar de las contingencias.
-        p De este modo, la ejecución, el seguimiento y el ajuste conforman un ciclo dinámico en el que cada acción retroalimenta a la siguiente, garantizando que el plan de acción se mantenga vigente, realista y adaptado a las necesidades del contexto.
+        p.mb-0 De este modo, la ejecución, el seguimiento y el ajuste conforman un ciclo dinámico en el que cada acción retroalimenta a la siguiente, garantizando que el plan de acción se mantenga vigente, realista y adaptado a las necesidades del contexto.
 
       .col-lg-4.col-6.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-3(data-aos="flip-up")
         figure
@@ -38,7 +37,7 @@
     .row.justify-content-center.align-items-center.mb-4(data-aos="flip-up")
       .col-lg-8.col-12.mb-md-0.order-lg-1.order-2
         p El seguimiento es un proceso sistemático que permite verificar el cumplimiento de las actividades definidas en el plan de acción. Su propósito es identificar avances, detectar dificultades y generar información que oriente la toma de decisiones oportunas.
-        p.mb-4 Para realizar un seguimiento efectivo, se recomienda considerar las siguientes fases:
+        p.mb-5 Para realizar un seguimiento efectivo, se recomienda considerar las siguientes fases:
         LineaTiempoD.color-acento-botones.especial.mb-4
           span(numero="A" titulo="Definición de indicadores de seguimiento:") 
             ul.lista-ul.mb-0
@@ -109,14 +108,14 @@
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.2 Gestión de recursos humanos, técnicos y financieros
 
-    p.mb-4(data-aos="flip-up") La gestión de recursos es un aspecto esencial en la implementación de cualquier plan de acción, ya que de su adecuada administración depende el cumplimiento de las metas y la sostenibilidad de las actividades programadas. Esta gestión integra de manera coordinada tres tipos de recursos: humanos, técnicos y financieros.
+    p.mb-5(data-aos="flip-up") La gestión de recursos es un aspecto esencial en la implementación de cualquier plan de acción, ya que de su adecuada administración depende el cumplimiento de las metas y la sostenibilidad de las actividades programadas. Esta gestión integra de manera coordinada tres tipos de recursos: humanos, técnicos y financieros.
 
-    .row.justify-content-center(data-aos="fade-down-right")
-      .col-lg-4.col-12.mb-3.d-lg-flex.d-none
+    .row.justify-content-center.mb-5(data-aos="fade-down-right")
+      .col-lg-4.col-12.d-lg-flex.d-none
         figure
           img(src='@/assets/curso/temas/tema3/img-05.png', alt='Imagen decorativa')
-      .col-lg-8.col-12.mb-3
-        AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--C01")
+      .col-lg-8.col-12
+        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--C01")
           .row(titulo="A. Recursos humanos")
             .col-lg-12.order-lg-1.order-2
               p.mb-4 Representan el talento y las capacidades de las personas que participan en la ejecución del plan. Su gestión implica:
@@ -197,11 +196,12 @@
             figure
               img(src='@/assets/curso/temas/tema3/img-22.svg', alt='', style="width: 400px").m-auto
           .col-lg-9
-            p.p-4.bg-color-3 Lejos de ser obstáculos, los conflictos bien gestionados pueden convertirse en oportunidades para fortalecer la cohesión comunitaria, mejorar procesos participativos y garantizar una implementación más justa y efectiva. Por ello, es esencial que los aprendices del SENA, líderes comunitarios y funcionarios públicos cuenten con herramientas para identificar, comprender y transformar los conflictos de manera participativa y respetuosa.
+            .bg-color-3.p-4
+              p.mb-0 Lejos de ser obstáculos, los conflictos bien gestionados pueden convertirse en oportunidades para fortalecer la cohesión comunitaria, mejorar procesos participativos y garantizar una implementación más justa y efectiva. Por ello, es esencial que los aprendices del SENA, líderes comunitarios y funcionarios públicos cuenten con herramientas para identificar, comprender y transformar los conflictos de manera participativa y respetuosa.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema3/img-06.png' alt="Imagen decorativa")
 
-    p.mb-4(data-aos="flip-up") A continuación, se describen los tipos de conflictos en la implementación de un plan:
+    p.mb-5(data-aos="flip-up") A continuación, se describen los tipos de conflictos en la implementación de un plan:
     
     .bg-c1.px-md-5.px-4.mb-5
       .row.justify-content-center(data-aos="fade-left")
@@ -239,42 +239,42 @@
     p.mb-4(data-aos="flip-up") En este punto es importante definir técnicas de diálogo y mediación comunitaria:
 
     .row.justify-content-center.mb-4
-      .col-lg-4.col-sm-10.mb-4(data-aos="fade-right")
+      .col-lg-4.col-sm-6.col-10.mb-4(data-aos="fade-right")
         .tarjeta.tarjeta--C02.p-3.h-100
           .row.justify-content-center.align-items-center
             .col-lg-3.col-4.mb-lg-0.mb-4
               img(src='@/assets/curso/temas/tema3/img-16.svg' alt="Imagen decorativa")
             .col-lg-8
               p.mb-0 #[b Escucha activa y empática:] Permitir que todas las partes expresen su punto de vista sin interrupciones, validando emociones.
-      .col-lg-4.col-sm-10.mb-4(data-aos="fade-left")
+      .col-lg-4.col-sm-6.col-10.mb-4(data-aos="fade-left")
         .tarjeta.tarjeta--C02.p-3.h-100
           .row.justify-content-center.align-items-center
             .col-lg-3.col-4.mb-lg-0.mb-4
               img(src='@/assets/curso/temas/tema3/img-17.svg' alt="Imagen decorativa")
             .col-lg-8
               p.mb-0 #[b Círculos de diálogo:] espacios seguros para hablar y construir acuerdos, usando metodologías como el “círculo de la palabra”.
-      .col-lg-4.col-sm-10.mb-4(data-aos="fade-right")
+      .col-lg-4.col-sm-6.col-10.mb-4(data-aos="fade-right")
         .tarjeta.tarjeta--C02.p-3.h-100
           .row.justify-content-center.align-items-center
             .col-lg-3.col-4.mb-lg-0.mb-4
               img(src='@/assets/curso/temas/tema3/img-18.svg' alt="Imagen decorativa")
             .col-lg-8
               p.mb-0 #[b Tercería o facilitación neutral:] Persona externa facilita consensos sin imponer soluciones.
-      .col-lg-4.col-sm-10.mb-4(data-aos="fade-left")
+      .col-lg-4.col-sm-6.col-10.mb-4(data-aos="fade-left")
         .tarjeta.tarjeta--C02.p-3.h-100
           .row.justify-content-center.align-items-center
             .col-lg-3.col-4.mb-lg-0.mb-4
               img(src='@/assets/curso/temas/tema3/img-19.svg' alt="Imagen decorativa")
             .col-lg-8
               p.mb-0 #[b Mapeo del conflicto:] Identificación de actores, intereses, niveles de poder y posibles alianzas.
-      .col-lg-4.col-sm-10.mb-4(data-aos="fade-left")
+      .col-lg-4.col-sm-6.col-10.mb-4(data-aos="fade-left")
         .tarjeta.tarjeta--C02.p-3.h-100
           .row.justify-content-center.align-items-center
             .col-lg-3.col-4.mb-lg-0.mb-4
               img(src='@/assets/curso/temas/tema3/img-20.svg' alt="Imagen decorativa")
             .col-lg-8
               p.mb-0 #[b Acuerdos escritos y públicos:] Registrar compromisos y decisiones para asegurar transparencia.
-      .col-lg-4.col-sm-10.mb-4(data-aos="fade-left")
+      .col-lg-4.col-sm-6.col-10.mb-4(data-aos="fade-left")
         .tarjeta.tarjeta--C02.p-3.h-100
           .row.justify-content-center.align-items-center
             .col-lg-3.col-4.mb-lg-0.mb-4
@@ -290,9 +290,9 @@
           .tarjeta-avatar-b__img.me-0.d-flex.justify-content-center.align-items-center(style="width:60px; height:60px; border-radius:50%")
             .col-lg-8
               img(src='@/assets/curso/temas/tema3/img-15.svg' alt="Imagen decorativa")(style= "width: 100%")
-          .tarjeta.tarjeta--C02.py-3
-            .p-3
-              p.mb-0 #[b Disputa por lugar de ejecución de actividades]
+          .tarjeta.tarjeta--C02
+            .p-4
+              p #[b Disputa por lugar de ejecución de actividades]
               p.mb-0 En una vereda rural, se acordó realizar una jornada de sensibilización ambiental en la escuela. Días antes, el presidente de la JAC solicita cambiar el lugar a la cancha comunal, generando oposición de los docentes. Se convocó una reunión abierta y se propuso dividir la jornada en dos momentos: actividad pedagógica en la escuela y comunitaria en la cancha. El acuerdo fortaleció la colaboración entre la escuela y la JAC, mostrando cómo un conflicto puede transformarse en oportunidad de participación y mejora.
 
     .row.mb-0
@@ -310,7 +310,7 @@
     .row.justify-content-center.align-items-center.mb-4(data-aos="flip-up")
       .col-lg-8.col-12.mb-md-0.order-lg-1.order-2
         p Los planes de acción en salud ambiental deben ser dinámicos, porque los territorios cambian constantemente por factores sociales, climáticos, epidemiológicos o institucionales. Ajustar estrategias permite mejorar resultados, responder a emergencias y adaptar las acciones a la realidad de la comunidad.
-        p.mb-4 A continuación, se describen los pasos para ajustar estrategias
+        p A continuación, se describen los pasos para ajustar estrategias
         LineaTiempoD.color-acento-botones.especial
           span(numero="A" titulo="Analizar resultados y retroalimentación") 
             ul.lista-ul.mb-0
