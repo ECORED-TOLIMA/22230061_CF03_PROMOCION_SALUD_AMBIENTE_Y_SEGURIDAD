@@ -334,7 +334,7 @@
                 i.lista-ul__vineta
                 | Por ejemplo: un plan educativo sobre el uso del agua muestra buena asistencia, pero pocos cambios en hábitos familiares. Esto indica que las charlas magistrales no son suficientes y se decide implementar talleres prácticos y visitas domiciliarias.
 
-          span(numero="B" titulo="Recolección de información")
+          span(numero="B" titulo="Tomar decisiones informadas y participativas")
             ul.lista-ul.mb-0
               li.mb-0
                 i.lista-ul__vineta
@@ -352,7 +352,7 @@
                 i.lista-ul__vineta
                 | Posibles ajustes: redistribuir recursos, cambiar metodologías, reorganizar cronogramas, modificar roles.
 
-          span(numero="C" titulo="Análisis de avances y dificultades") 
+          span(numero="C" titulo="Adaptarse al contexto y nuevos actores") 
             ul.lista-ul.mb-0
               li.mb-0
                 i.lista-ul__vineta
@@ -374,7 +374,7 @@
                 i.lista-ul__vineta
                 | Por ejemplo: durante un plan de reciclaje, un deslizamiento contaminó el acueducto veredal. El equipo destinó recursos a educación sobre tratamiento doméstico del agua, gestionó filtros artesanales y reorganizó las actividades de reciclaje para después de la emergencia.
 
-          span(numero="D" titulo="Comunicación de resultados") 
+          span(numero="D" titulo="Evaluar aprendizajes y reforzar buenas prácticas") 
             ul.lista-ul.mb-0
               li.mb-0
                 i.lista-ul__vineta
