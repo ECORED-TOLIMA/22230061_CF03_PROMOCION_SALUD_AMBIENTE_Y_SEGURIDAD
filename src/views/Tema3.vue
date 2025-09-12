@@ -146,7 +146,7 @@
 
                 li.mb-0 
                   i.lista-ul__vineta
-                  | Uso eficiente de herramientas tecnológicas, como software de gestión, sistemas de monitoreo o plataformas de comunicación.
+                  span Uso eficiente de herramientas tecnológicas, como #[em software] de gestión, sistemas de monitoreo o plataformas de comunicación.
 
                 li.mb-0 
                   i.lista-ul__vineta
@@ -210,7 +210,7 @@
             .row.justify-content-center.mb-3
               .col-lg-5.col-sm-4.col-6
                 img(src='@/assets/curso/temas/tema3/img-07.svg' alt='Imagen decorativa')
-            p.mb-0 #[b Conflictos de comunicación:] Malentendidos o información poco clara. Por ejemplo, dos equipos ejecutan tareas duplicadas por falta de definición de responsabilidades.
+            p.mb-0 #[b Conflictos de comunicación:] malentendidos o información poco clara. Por ejemplo, dos equipos ejecutan tareas duplicadas por falta de definición de responsabilidades.
 
           .tarjeta.tarjeta--BG01.p-4
             .row.justify-content-center.mb-3
@@ -234,7 +234,7 @@
             .row.justify-content-center.mb-3
               .col-lg-5.col-sm-4.col-6
                 img(src='@/assets/curso/temas/tema3/img-11.svg' alt='Imagen decorativa')
-            p.mb-0 #[b Conflictos culturales o de valores:] Diferencias en creencias, estilos de trabajo o tradiciones. Por ejemplo, la comunidad indígena que rechaza métodos técnicos de control de vectores por afectar prácticas ancestrales.
+            p.mb-0 #[b Conflictos culturales o de valores:] diferencias en creencias, estilos de trabajo o tradiciones. Por ejemplo, la comunidad indígena que rechaza métodos técnicos de control de vectores por afectar prácticas ancestrales.
 
     p.mb-4(data-aos="flip-up") En este punto es importante definir técnicas de diálogo y mediación comunitaria:
 
@@ -245,7 +245,7 @@
             .col-lg-3.col-4.mb-lg-0.mb-4
               img(src='@/assets/curso/temas/tema3/img-16.svg' alt="Imagen decorativa")
             .col-lg-8
-              p.mb-0 #[b Escucha activa y empática:] Permitir que todas las partes expresen su punto de vista sin interrupciones, validando emociones.
+              p.mb-0 #[b Escucha activa y empática:] permitir que todas las partes expresen su punto de vista sin interrupciones, validando emociones.
       .col-lg-4.col-sm-6.col-10.mb-4(data-aos="fade-left")
         .tarjeta.tarjeta--C02.p-3.h-100
           .row.justify-content-center.align-items-center
@@ -259,21 +259,21 @@
             .col-lg-3.col-4.mb-lg-0.mb-4
               img(src='@/assets/curso/temas/tema3/img-18.svg' alt="Imagen decorativa")
             .col-lg-8
-              p.mb-0 #[b Tercería o facilitación neutral:] Persona externa facilita consensos sin imponer soluciones.
+              p.mb-0 #[b Tercería o facilitación neutral:] persona externa facilita consensos sin imponer soluciones.
       .col-lg-4.col-sm-6.col-10.mb-4(data-aos="fade-left")
         .tarjeta.tarjeta--C02.p-3.h-100
           .row.justify-content-center.align-items-center
             .col-lg-3.col-4.mb-lg-0.mb-4
               img(src='@/assets/curso/temas/tema3/img-19.svg' alt="Imagen decorativa")
             .col-lg-8
-              p.mb-0 #[b Mapeo del conflicto:] Identificación de actores, intereses, niveles de poder y posibles alianzas.
+              p.mb-0 #[b Mapeo del conflicto:] identificación de actores, intereses, niveles de poder y posibles alianzas.
       .col-lg-4.col-sm-6.col-10.mb-4(data-aos="fade-left")
         .tarjeta.tarjeta--C02.p-3.h-100
           .row.justify-content-center.align-items-center
             .col-lg-3.col-4.mb-lg-0.mb-4
               img(src='@/assets/curso/temas/tema3/img-20.svg' alt="Imagen decorativa")
             .col-lg-8
-              p.mb-0 #[b Acuerdos escritos y públicos:] Registrar compromisos y decisiones para asegurar transparencia.
+              p.mb-0 #[b Acuerdos escritos y públicos:] registrar compromisos y decisiones para asegurar transparencia.
       .col-lg-4.col-sm-6.col-10.mb-4(data-aos="fade-left")
         .tarjeta.tarjeta--C02.p-3.h-100
           .row.justify-content-center.align-items-center

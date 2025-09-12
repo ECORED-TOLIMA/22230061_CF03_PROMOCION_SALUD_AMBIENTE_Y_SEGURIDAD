@@ -431,7 +431,7 @@
             .p-4
               p.mb-0 En el barrio Villa Esperanza (Cundinamarca), un basurero a cielo abierto fue transformado en zona verde mediante un proceso coordinado entre la comunidad, la alcaldía, la ESE local y la Secretaría de Ambiente. Se realizaron labores de limpieza, arborización y señalización, y se firmó un pacto de corresponsabilidad para el mantenimiento. La comunidad asumió turnos de vigilancia y organizó jornadas de reciclaje, demostrando que la acción compartida genera resultados tangibles y sostenibles.
 
-    p.mb-0(data-aos="fade-left") La coordinación de acciones compartidas en salud ambiental no se limita a sumar esfuerzos: implica construir confianza, co-crear soluciones y consolidar una cultura de colaboración en la que cada actor reconoce y valora su rol en el cuidado del entorno. Solo así es posible generar transformaciones duraderas que fortalezcan la salud y la sostenibilidad de los territorios.
+    p.mb-0(data-aos="fade-left") La coordinación de acciones compartidas en salud ambiental no se limita a sumar esfuerzos: implica construir confianza, cocrear soluciones y consolidar una cultura de colaboración en la que cada actor reconoce y valora su rol en el cuidado del entorno. Solo así es posible generar transformaciones duraderas que fortalezcan la salud y la sostenibilidad de los territorios.
 
     Separador
 

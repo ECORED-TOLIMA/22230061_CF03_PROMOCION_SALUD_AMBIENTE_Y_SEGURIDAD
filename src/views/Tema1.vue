@@ -95,8 +95,8 @@
     p(data-aos="fade-left") En Colombia, estos comités están respaldados legalmente por la Ley 100 de 1993, que establece la participación social como principio fundamental del Sistema General de Seguridad Social en Salud, y por la Resolución 2063 de 2017 del Ministerio de Salud y Protección Social, que define lineamientos para la organización y funcionamiento de los COPACOS en el marco de la Política de Participación Social en Salud.
     p.mb-4(data-aos="fade-right") La conformación de un Comité de Participación Comunitaria en Salud implica un proceso organizado que busca garantizar la representatividad y el compromiso de los actores comunitarios. Entre los pasos principales se encuentran:
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-9.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0.mb-3
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-9.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0.mb-0
         .row.justify-content-center
           .col-lg-4.col-sm-6.col-10.mb-4(data-aos="fade-left")
             .tarjeta.BGIMG01.h-100.p-4(style="background-color:#C2EDC3")
