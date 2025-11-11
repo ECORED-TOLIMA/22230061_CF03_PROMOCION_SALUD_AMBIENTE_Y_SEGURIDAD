@@ -5,7 +5,6 @@ export default {
     descripcionCurso:
       'Este componente se centra en la aplicación práctica de estrategias participativas que promueven la salud ambiental y la seguridad sanitaria. Se orienta al desarrollo de acciones comunitarias, la gestión responsable de riesgos y la implementación de prácticas sostenibles para fortalecer la protección de la salud colectiva.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
